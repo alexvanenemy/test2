@@ -1,8 +1,5 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
-metadata:
-  name: review-the-application
-  namespace: argocd
 spec:
   generators:
   - pullRequest:
