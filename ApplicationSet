@@ -14,9 +14,6 @@ spec:
           key: token
         pullRequestState: opened
       requeueAfterSeconds: 60
-  template:
-    metadata:
-      name: 'review-the-application-{{number}}'
     spec:
       source:
         repoURL: <repository-with-manifest-files>
